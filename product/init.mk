@@ -5,7 +5,7 @@ PRODUCT_COPY_FILES += \
 
 # Init device configurations
 PRODUCT_COPY_FILES += \
-    device/lge/$(LGE_MSM7X27A_DEVICE)/rootdir/root/init.$(BOARD_VENDOR_PLATFORM).rc:root/init.$(BOARD_VENDOR_PLATFORM).rc
+    device/lge/e400/rootdir/root/init.$(BOARD_VENDOR_PLATFORM).rc:root/init.$(BOARD_VENDOR_PLATFORM).rc
 
 # Script to first generation devices
 ifeq ($(LGE_MSM7X27A_GENERATION),1)
